@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  background-color: #e8eddf;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: italic;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #f5cb5c;
+  color: transparent;
+  font-size: 64pt;
+}
+
+.heading1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 36pt;
+}
+
+.heading2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24pt;
+  text-decoration: underline;
+  text-decoration-color: #f5cb5c;
+}
+
+.heading3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18pt;
+  color: #dea749;
+}
+
+.heading4 {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  color: #f5cb5c;
+}
+
+.bodytitle {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 14pt;
+  color: #242423;
+}
+
+.bodytext {
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 12pt;
+  color: #242423;
+}
+
+.button1 {
+  background-color: #f5cb5c;
+  border: none;
+  color: #242423;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+}
+
+/* scrollbar madness */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cfdbd5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f5cb5c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dea749;
+}

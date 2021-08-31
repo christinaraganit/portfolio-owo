@@ -80,6 +80,21 @@ a.heading4 {
   letter-spacing: 2pt;
 }
 
+.large-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242423;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.large-icon-div > i {
+  font-size: 24px;
+  color: #f5cb5c;
+}
+
 /* scrollbar madness */
 /* width */
 ::-webkit-scrollbar {

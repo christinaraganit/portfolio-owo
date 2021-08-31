@@ -18,6 +18,7 @@ body {
 .heading1 {
   font-family: "Montserrat";
   font-weight: 700;
+  color: #242423;
   font-size: 36pt;
 }
 
@@ -25,6 +26,7 @@ body {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 24pt;
+  color: #242423;
   text-decoration: underline;
   text-decoration-color: #f5cb5c;
 }
@@ -80,18 +82,18 @@ a.heading4 {
   letter-spacing: 2pt;
 }
 
-.large-icon-div {
+.icon-div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #242423;
   border-radius: 50%;
-  width: 64px;
-  height: 64px;
+  width: 8vh;
+  height: 8vh;
 }
 
-.large-icon-div > i {
-  font-size: 24px;
+.icon-div > i {
+  font-size: 4vh;
   color: #f5cb5c;
 }
 
